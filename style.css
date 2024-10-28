@@ -1,0 +1,37 @@
+body {
+  background: rgb(0, 111, 183);
+  padding: 25vh 0;
+}
+.logo {
+  width: 500px;
+  margin: 0 auto;
+  transform: skewX(-7deg);
+}
+.yellow {
+  width: 470px;
+  height: 169px;
+  background: rgb(223, 198, 46);
+  border-radius: 96%;
+  position: absolute;
+  left: 40px;
+  top: 33px;
+  border-right: 5px solid black;
+  border-bottom: 3px solid black;
+  transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+}
+.text {
+  font-family: "Playfair Display";
+  font-size: 100px;
+  color: rgb(194, 53, 35);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: relative;
+  top: 30px;
+  left: 85px;
+  transform: scale(1, 2);
+}
+.triangle {
+  position: relative;
+  left: 185px;
+  top: -110px;
+}
